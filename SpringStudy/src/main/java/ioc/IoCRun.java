@@ -5,7 +5,8 @@ import ioc.domain.Student;
 import ioc.context.ClassPathXmlApplicationContext;
 import ioc.service.MainService;
 
-public class main {
+
+public class IoCRun {
 
     public static void main(String[] arg) throws Exception {
 
