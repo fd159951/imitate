@@ -1,7 +1,9 @@
-import context.AnClassPathXmlApplicationContext;
-import domain.Student;
-import context.ClassPathXmlApplicationContext;
-import service.MainService;
+package ioc;
+
+import ioc.context.AnClassPathXmlApplicationContext;
+import ioc.domain.Student;
+import ioc.context.ClassPathXmlApplicationContext;
+import ioc.service.MainService;
 
 public class main {
 
@@ -21,7 +23,7 @@ public class main {
 
     public static void ioCByAnnotation() throws Exception {
         AnClassPathXmlApplicationContext anClassPathXmlApplicationContext = new
-                AnClassPathXmlApplicationContext("service.impl");
+                AnClassPathXmlApplicationContext("ioc.service.impl");
         MainService mainService = (MainService) anClassPathXmlApplicationContext.getBean("mainServiceImpl");
         mainService.doSomething("as");
     }

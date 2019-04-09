@@ -1,11 +1,10 @@
-package context;
+package ioc.context;
 
-import newannotation.NewResource;
-import newannotation.NewService;
+import ioc.newannotation.NewResource;
+import ioc.newannotation.NewService;
 import org.apache.commons.lang.StringUtils;
-import util.ClassUtil;
+import ioc.util.ClassUtil;
 
-import java.io.IOException;
 import java.lang.reflect.Field;
 import java.util.List;
 import java.util.Map;

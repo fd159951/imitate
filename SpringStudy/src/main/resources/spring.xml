@@ -12,6 +12,6 @@
      	 http://www.springframework.org/schema/tx/spring-tx.xsd">
 
 
-	<bean id="student" class="domain.Student"></bean>
+	<bean id="student" class="ioc.domain.Student"></bean>
 
 </beans>

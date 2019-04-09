@@ -1,6 +1,4 @@
-package service;
-
-import newannotation.NewService;
+package ioc.service;
 
 
 public interface MainService {

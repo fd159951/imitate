@@ -1,11 +1,9 @@
-package service.impl;
+package ioc.service.impl;
 
-import newannotation.NewResource;
-import newannotation.NewService;
-import service.DoService;
-import service.MainService;
-
-import javax.annotation.Resource;
+import ioc.newannotation.NewResource;
+import ioc.newannotation.NewService;
+import ioc.service.DoService;
+import ioc.service.MainService;
 
 @NewService
 public class MainServiceImpl implements MainService {

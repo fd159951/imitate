@@ -1,4 +1,4 @@
-package domain;
+package ioc.domain;
 
 public class Student {
     String name;

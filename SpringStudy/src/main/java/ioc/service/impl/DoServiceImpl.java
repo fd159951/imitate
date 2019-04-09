@@ -1,7 +1,7 @@
-package service.impl;
+package ioc.service.impl;
 
-import newannotation.NewService;
-import service.DoService;
+import ioc.newannotation.NewService;
+import ioc.service.DoService;
 
 @NewService
 public class DoServiceImpl implements DoService {
